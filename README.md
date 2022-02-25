@@ -26,6 +26,11 @@ Bad SNS 2019は、教育目的での利用のみを意図して作られてい�
 $ docker run --privileged -d --rm -p 10080:80 --name badsns2019 ommadawn46/badsns2019
 ```
 
+When you run it from locally built image (assuming you named it "badsns2019")
+```
+docker run --privileged -d  --rm -p 3000:80 badsns2019
+```
+
 ### Browse
 
 - Bad SNS: http://localhost:10080/
